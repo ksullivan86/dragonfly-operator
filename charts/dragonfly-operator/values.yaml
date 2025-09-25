@@ -35,7 +35,12 @@ podAnnotations:
 podLabels: {}
 
 podSecurityContext:
-  runAsNonRoot: true
+    allowPrivilegeEscalation: false
+    capabilities:
+      drop:
+        - ALL
+    seccompProfile:
+      type: RuntimeDefault
 
 service:
   type: ClusterIP
@@ -106,7 +111,8 @@ manager:
     capabilities:
       drop:
         - ALL
-
+    seccompProfile:
+      type: RuntimeDefault
   # -- Priority class name for the operator pod
   priorityClassName: ""
 
