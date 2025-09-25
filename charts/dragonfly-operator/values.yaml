@@ -67,6 +67,8 @@ rbacProxy:
     capabilities:
       drop:
         - ALL
+    seccompProfile:
+      type: RuntimeDefault
 
 manager:
   image:

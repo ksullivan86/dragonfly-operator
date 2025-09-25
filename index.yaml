@@ -3,12 +3,12 @@ entries:
   dragonfly-operator:
   - apiVersion: v2
     appVersion: v1.2.1
-    created: "2025-09-24T17:21:30.619538-07:00"
+    created: "2025-09-24T18:00:14.52749-07:00"
     description: A Helm chart for dragonfly-operator
-    digest: a98e3690eb2519dae84021f427c5d8372e4d09c519cc96ad6711eadf8ea1eb97
+    digest: f758c5dc5d58b3db508b863a2329b9d8d5c2c09a69e7843f3de9a03365594284
     name: dragonfly-operator
     type: application
     urls:
     - packaged-charts/dragonfly-operator-v1.2.1.tgz
     version: v1.2.1
-generated: "2025-09-24T17:21:30.617139-07:00"
+generated: "2025-09-24T18:00:14.524605-07:00"
