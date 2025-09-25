@@ -35,12 +35,12 @@ podAnnotations:
 podLabels: {}
 
 podSecurityContext:
-    allowPrivilegeEscalation: false
+#    allowPrivilegeEscalation: false
     runAsNonRoot: true
-    readOnlyRootFilesystem: true
-    capabilities:
-      drop:
-        - ALL
+#    readOnlyRootFilesystem: true
+#    capabilities:
+#      drop:
+#        - ALL
     seccompProfile:
       type: RuntimeDefault
 
